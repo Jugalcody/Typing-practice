@@ -166,7 +166,7 @@ cursor.execute("create table if not exists score ( sno varchar(100),Name varchar
 
 cursor.execute("select * from score order by sno desc")
 aa=cursor.fetchone()
-print(aa)
+
 if aa is None:
        k=0
 else:
@@ -177,6 +177,4 @@ a="insert into score values(%s,%s,%s,%s,%s,%s,%s,%s,%s)"
 b=(str(k+1),str(name),str(c1),str(w1),str(w2),str(cs),str(s1),str(s2),str(bb))
 cursor.execute(a,b)
 mm.commit()
-print("done")
-
 
