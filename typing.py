@@ -9,7 +9,7 @@ while i<=20:
            v=r.randint(97,122)
            h=chr(v)
            print("\n",h,"\n")
-           a=input(f"Enter {i+1} chr : ")
+           a=input(f"Enter {i+1}/20 chr : ")
            if a==h:
                      i=i+1
                                             
@@ -27,7 +27,7 @@ while n<=30:
             
             d=d+chr(m)
         print("\n",d,"\n")    
-        c=input(f"Enter {n} string : ")              
+        c=input(f"Enter {n}/30 string : ")              
         if c==d:
                  n=n+1                          
                      
@@ -43,11 +43,11 @@ while n<=60:
             
             d=d+chr(m)
         print("\n",d,"\n")    
-        c=input(f"Enter {n} string : ")              
+        c=input(f"Enter {n}/60 string : ")              
         if c==d:
                  n=n+1  
                         
-print("\nCongratulation, you have successfully completed the third level\n")
+print("\nCongratulation, you have successfully completed the levels\n")
     
     
 
