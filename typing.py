@@ -2,8 +2,9 @@ import random as r
 import time
 print("\nTyping practice.....\n\n")
 time.sleep(2)
-print("Use the general method to type.....\n\n")
+print("Use general method to type.....\n\n")
 time.sleep(1)
+name=input("Enter your name : ")
 print("\nType characters...\n")
 i=1
 while i<=40:           
@@ -14,9 +15,12 @@ while i<=40:
            a=input(f"Enter {i}/40 chr : ")
            if a==h:
                      i=i+1
+           else:
+                 time.sleep(1)  
+                 print("\nwrong typed...try again..")          
                                             
 
-print("\nCongratulation, you have successfully completed the first level\n")
+print(f"\nCongratulation {name}, you have successfully completed the first level\n")
 time.sleep(2)
 print("type words part 1")
 
@@ -31,9 +35,12 @@ while n<=60:
         print("\n",d,"\n")    
         c=input(f"Enter {n}/60 string : ")              
         if c==d:
-                 n=n+1                          
+                 n=n+1
+        else:
+                 time.sleep(1)
+                 print("\nwrong typed...try again...")                                   
                      
-print("\nCongratulation, you have successfully completed the second level\n")
+print(f"\nCongratulation {name}, you have successfully completed the second level\n")
 time.sleep(2)
 print("type words part 2\n")                     
 n=1               
@@ -47,9 +54,12 @@ while n<=90:
         print("\n",d,"\n")    
         c=input(f"Enter {n}/90 string : ")              
         if c==d:
-                 n=n+1  
+                 n=n+1
+        else:  
+                time.sleep(1)                 
+                print("\nwrong typed...try again...")           
                         
-print("\nCongratulation, you have successfully completed the third level\n")
+print(f"\nCongratulation {name}, you have successfully completed the third level\n")
 
 time.sleep(2)
 print("type characters with space....\n")                     
@@ -67,10 +77,12 @@ while n<=30:
         c=input(f"Enter {n}/30 string : ")              
         if c==d[:-1]:
                  n=n+1  
-                 
+        else:
+                  time.sleep(1)    
+                  print("\nwrong typed...try again...")         
    
     
-print("\nCongratulation, you have successfully completed the fourth level\n")
+print(f"\nCongratulation {name}, you have successfully completed the fourth level\n")
 
 time.sleep(2)
 print("type sentences part 1\n")                     
@@ -90,10 +102,12 @@ while n<=30:
         c=input(f"Enter {n}/30 string : ")              
         if c==d[:-1]:
                  n=n+1  
-                 
+        else:
+                time.sleep(1)
+                print("\nwrong typed...try again...")         
 
     
-print("\nCongratulation, you have successfully completed the fifth level\n")
+print(f"\nCongratulation {name}, you have successfully completed the fifth level\n")
 
 time.sleep(2)
 print("type sentences part 2...\n")                     
@@ -113,9 +127,11 @@ while n<=90:
         c=input(f"Enter {n}/90 string : ")              
         if c==d[:-1]:
                  n=n+1  
-
-print("\nCongratulation, you have successfully completed the sixth level\n")
-print(".....")
+        else: 
+                 time.sleep(1)
+                 print("\nwrong typed...try again...")
+print(f"\nCongratulation {name}, you have successfully completed the sixth level\n")
+print(".....\n\n")
 time.sleep(2)
-print("\n\n{name}, have you noticed that your performance has been improved and become better than earlier...Congratulation!!!!")
+print(f"\n\n{name}, have you noticed that your performance has been improved and become more better than earlier...Congratulation!!!!\n\n")
                   
