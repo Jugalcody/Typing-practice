@@ -1,5 +1,5 @@
 # Typing-practice
-In this project, i am trying to create a well platform of typing practice. if anyone has some additional idea ,he/she can modify it to the best.
+In this project, i am trying to create a well platform for typing practice. if anyone has some additional idea ,he/she can modify it to the best.
 
 ##Aim 1
 - To develop a typing platform with random characters,words,sentences,etc
