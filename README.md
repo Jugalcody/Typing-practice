@@ -59,7 +59,7 @@ status -completed
 
  ##status of Aim 5 - incomplete
       
-  * If anyone has some idea about aim 5, he/she is most welcome to modify this code and complete the task....
+  * If anyone has some idea about aim 5, he/she can modify it and complete the task....
     
       
       
