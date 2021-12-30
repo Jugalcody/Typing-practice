@@ -1,11 +1,11 @@
 # Typing-practice
 In this project, i am trying to create a well platform for typing practice. if anyone has some additional idea ,he/she can modify it to the best.
 
-##Aim 1
+## Aim 1
 - To develop a typing platform with random characters,words,sentences,etc
 - To create different levels
 
-###levels
+### Levels
 
 - Level 1 contains simple characters 
 - Level 2 contains simple random words
@@ -16,7 +16,7 @@ In this project, i am trying to create a well platform for typing practice. if a
 
 status - completed
 
-##Aim 2
+## Aim 2
 
 - Modify it to calculate the score of each levels and store it into a database or into a file
 
@@ -27,22 +27,22 @@ status - completed
 
 status - completed
 
-##Aim3
+## Aim3
 
-##Exception handling
+### Exception handling
 
 -When computer ask to the user that if mysql sever is installed on the pc or not after completing the last level, and if user enter yes despite not having the mysql
  database installed on the pc or if mysql server is installed but the user name ,password is entered wrong or if mysql-connector is not installed or any other issue occured
  and an error would come , then unfortunately the score won't save anywhere.
  
- ###Fix
+ ### Fix
  
  - By using excetion handling, the problrm has been solved successfully.
  - Now if any error occured, then the score will automatically saved into a file named 'typing-score.txt'.
  
 status- completed
 
-#Aim 4
+## Aim 4
 
 - To calculate the time taken by the user in completing a level
 - Module used - time
@@ -50,14 +50,14 @@ status- completed
 
 status -completed
 
-#Aim 5
+## Aim 5
 
 - If the user completed the task upto level 3, and close the program and run again then the program would starts from level 1 again
 
 - Next aim is to make the program executes from a checkpoint. Once the user completed upto some levels, then the last completed level would be recorded as a checkpoint and 
   by next time, if program runs again, instead of running from the first level, it would execute from the saved checkpoint.
 
- ##status of Aim 5 - incomplete
+ ### status(Aim 5) - incomplete
       
   * If anyone has some idea about aim 5, he/she can modify it and complete the task....
     
