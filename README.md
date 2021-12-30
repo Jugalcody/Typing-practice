@@ -32,7 +32,7 @@ status - completed
 ##Exception handling
 
 -When computer ask to the user that if mysql sever is installed on the pc or not after completing the last level, and if user enter yes despite not having the mysql
- database installed on the pc or if myaql server is installed but the user name ,password is entered wrong or if mysql-connector is not installed or any other issue occured
+ database installed on the pc or if mysql server is installed but the user name ,password is entered wrong or if mysql-connector is not installed or any other issue occured
  and an error would come , then unfortunately the score won't save anywhere.
  
  ###Fix
@@ -59,6 +59,7 @@ status -completed
 
  ##status of Aim 5 - incomplete
       
-      
+  * If anyone has some idea about aim 5, he/she is most welcome to modify this code and complete the task....
+    
       
       
