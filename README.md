@@ -1,5 +1,5 @@
 # Typing-practice
-In this project, i am trying to create a well platform for typing practice. if anyone has some additional idea ,he/she can modify it to the best.
+In this project, i am trying to create a well platform for typing practice with different levels. Once someone completes all the levels successfully, his/her score will be recorded into a file or mysql database.
 
 ## Aim 1
 - To develop a typing platform with random characters,words,sentences,etc
